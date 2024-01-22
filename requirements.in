@@ -1,3 +1,4 @@
 datasette
+datasette-publish-vercel
 pip-tools
 yt-dlp

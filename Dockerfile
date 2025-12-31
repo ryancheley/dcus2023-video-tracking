@@ -24,11 +24,11 @@ WORKDIR /app
 COPY --from=builder /root/.local /app/.local
 
 # Copy application code and database
-COPY program.py .
-RUN mkdir -p /app/data && cp views.db* /app/data/ 2>/dev/null || true
-
-# Create non-root user
-RUN useradd -m appuser && chown -R appuser:appuser /app
+COPY program.py views.db* /app/
+RUN mkdir -p /app/data && \
+    [ -f /app/views.db ] && mv /app/views.db /app/data/ || true && \
+    useradd -m appuser && \
+    chown -R appuser:appuser /app
 
 # Update PATH and PYTHONPATH to use installed packages
 ENV PATH=/app/.local/bin:$PATH

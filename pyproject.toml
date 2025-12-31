@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "dcus2023-video-tracking"
 version = "0.1.0"
 description = "Tracks YouTube video view counts for the DjangoConUS channel"
-requires-python = ">=3.12"
+requires-python = ">=3.14"
 dependencies = [
     "datasette",
     "yt-dlp",

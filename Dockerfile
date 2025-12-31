@@ -45,7 +45,7 @@ EXPOSE 8001
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=10s --retries=3 \
-    CMD ["/app/.local/bin/datasette", "/app/data/views.db"]
+    CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8001/')"
 
 # Start datasette
 CMD ["/app/.local/bin/datasette", "/app/data/views.db", "-h", "0.0.0.0", "-p", "8001"]

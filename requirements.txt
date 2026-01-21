@@ -61,7 +61,7 @@ python-multipart==0.0.21
     # via asgi-csrf
 pyyaml==6.0.3
     # via datasette
-setuptools==80.9.0
+setuptools==80.10.1
     # via datasette
 typing-extensions==4.15.0
     # via

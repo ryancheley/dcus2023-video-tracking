@@ -57,11 +57,11 @@ platformdirs==4.5.1
     # via datasette
 pluggy==1.6.0
     # via datasette
-python-multipart==0.0.21
+python-multipart==0.0.22
     # via asgi-csrf
 pyyaml==6.0.3
     # via datasette
-setuptools==80.10.1
+setuptools==80.10.2
     # via datasette
 typing-extensions==4.15.0
     # via

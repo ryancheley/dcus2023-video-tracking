@@ -12,7 +12,7 @@ certifi==2026.2.25
     # via
     #   httpcore
     #   httpx
-click==8.3.1
+click==8.3.2
     # via
     #   click-default-group
     #   datasette
@@ -57,7 +57,7 @@ platformdirs==4.9.4
     # via datasette
 pluggy==1.6.0
     # via datasette
-python-multipart==0.0.22
+python-multipart==0.0.24
     # via asgi-csrf
 pyyaml==6.0.3
     # via datasette
@@ -69,7 +69,7 @@ typing-extensions==4.15.0
     #   datasette
     #   flexcache
     #   flexparser
-uvicorn==0.42.0
+uvicorn==0.44.0
     # via datasette
 yt-dlp==2026.3.17
     # via dcus2023-video-tracking (pyproject.toml)

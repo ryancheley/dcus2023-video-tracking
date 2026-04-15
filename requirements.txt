@@ -53,11 +53,11 @@ mergedeep==1.3.4
     # via datasette
 pip==26.0.1
     # via datasette
-platformdirs==4.9.4
+platformdirs==4.9.6
     # via datasette
 pluggy==1.6.0
     # via datasette
-python-multipart==0.0.24
+python-multipart==0.0.26
     # via asgi-csrf
 pyyaml==6.0.3
     # via datasette

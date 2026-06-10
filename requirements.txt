@@ -57,7 +57,7 @@ platformdirs==4.10.0
     # via datasette
 pluggy==1.6.0
     # via datasette
-python-multipart==0.0.30
+python-multipart==0.0.32
     # via asgi-csrf
 pyyaml==6.0.3
     # via datasette
@@ -71,5 +71,5 @@ typing-extensions==4.15.0
     #   flexparser
 uvicorn==0.49.0
     # via datasette
-yt-dlp==2026.3.17
+yt-dlp==2026.6.9
     # via dcus2023-video-tracking (pyproject.toml)

@@ -2,7 +2,7 @@
 #    uv pip compile pyproject.toml -o requirements.txt
 aiofiles==25.1.0
     # via datasette
-anyio==4.14.0
+anyio==4.14.1
     # via httpx
 asgi-csrf==0.11
     # via datasette
@@ -12,7 +12,7 @@ certifi==2026.6.17
     # via
     #   httpcore
     #   httpx
-click==8.4.1
+click==8.4.2
     # via
     #   click-default-group
     #   datasette

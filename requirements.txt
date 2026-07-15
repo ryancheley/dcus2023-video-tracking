@@ -2,11 +2,11 @@
 #    uv pip compile pyproject.toml -o requirements.txt
 aiofiles==25.1.0
     # via datasette
-anyio==4.14.1
+anyio==4.14.2
     # via httpx
 asgi-csrf==0.11
     # via datasette
-asgiref==3.11.1
+asgiref==3.12.1
     # via datasette
 certifi==2026.6.17
     # via

@@ -1,5 +1,5 @@
 # Build stage
-FROM python:3.14-slim AS builder
+FROM python:3.15-slim AS builder
 
 WORKDIR /app
 
@@ -18,7 +18,7 @@ RUN pip install --user --no-cache-dir -r requirements.txt 2>/dev/null || \
     pip install --user --no-cache-dir -e .
 
 # Production stage
-FROM python:3.14-slim
+FROM python:3.15-slim
 
 WORKDIR /app
 
@@ -40,7 +40,7 @@ RUN mkdir -p /app/data && \
 
 # Update PATH and PYTHONPATH to use installed packages
 ENV PATH=/app/.local/bin:$PATH
-ENV PYTHONPATH=/app/.local/lib/python3.14/site-packages:$PYTHONPATH
+ENV PYTHONPATH=/app/.local/lib/python3.15/site-packages:$PYTHONPATH
 ENV PYTHONUNBUFFERED=1
 
 # Switch to non-root user

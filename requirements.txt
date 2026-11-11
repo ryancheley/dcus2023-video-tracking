@@ -12,7 +12,7 @@ certifi==2026.10.23
     # via
     #   httpcore
     #   httpx
-click==8.5.0
+click==8.5.1
     # via
     #   click-default-group
     #   datasette
@@ -51,9 +51,9 @@ markupsafe==3.0.4
     # via jinja2
 mergedeep==1.3.4
     # via datasette
-pip==26.2.2
+pip==26.3
     # via datasette
-platformdirs==4.14.2
+platformdirs==4.14.5
     # via datasette
 pluggy==1.7.0
     # via datasette
